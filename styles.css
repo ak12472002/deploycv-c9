@@ -208,4 +208,27 @@ html {
     .home-section p {
         font-size: 1.1rem;
     }
+
+    .home-section .buttons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-section .buttons a {
+        margin: 10px 0;
+    }
+
+    .about-section {
+        padding: 40px 20px;
+    }
+
+    .projects-section {
+        padding: 40px 20px;
+    }
+
+    .contact-section {
+        padding: 40px 20px;
+    }
 }
