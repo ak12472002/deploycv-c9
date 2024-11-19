@@ -1,3 +1,4 @@
+/* General Body Settings */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
@@ -6,6 +7,17 @@ body {
     color: #333;
 }
 
+/* Hover Animation */
+a, .btn, .card, .navbar-nav .nav-link, .social-icons a {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover, .btn:hover, .card:hover, .navbar-nav .nav-link:hover, .social-icons a:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+/* Header */
 .header {
     position: sticky;
     top: 0;
@@ -32,6 +44,7 @@ body {
     border-color: white;
 }
 
+/* Home Section */
 .home-section {
     background-color: #ffffff;
     padding: 60px 0;
@@ -81,6 +94,7 @@ body {
     color: white;
 }
 
+/* About Section */
 .about-section {
     background-color: #f8f9fa;
     padding: 60px 0;
@@ -106,6 +120,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* Projects Section */
 .projects-section {
     background-color: #ffffff;
     padding: 60px 0;
@@ -130,6 +145,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Education Section */
 .education-section {
     background-color: #f8f9fa;
     padding: 60px 0;
@@ -141,6 +157,7 @@ body {
     margin-bottom: 30px;
 }
 
+/* Contact Section */
 .contact-section {
     background-color: #ffffff;
     padding: 60px 0;
